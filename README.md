@@ -1,4 +1,4 @@
-Descrição do Repositório
+Descrição do Repositório //
 Este repositório contém um conjunto de automações projetadas para otimizar os processos de trabalho com o Bill of Materials (BOM) no Inventor, além de melhorar a gestão e organização de arquivos técnicos. O objetivo principal é fornecer ferramentas para automação da criação de planilhas, verificação de títulos de peças e garantir a conformidade dos arquivos gerados pela área de engenharia.
 
 Funcionalidades
