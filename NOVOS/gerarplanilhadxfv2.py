@@ -86,11 +86,12 @@ def EnviarComAssinaturaOutlook(caminho_arquivo):
 
         # Texto do e-mail (antes da assinatura)
         CorpoSemAssinatura = "<p>Olá,</p>" + \
-                             "<p>Segue em anexo a planilha do BOM - Projeto ALMA.</p><br>"
+                             "<p>SEGUE EM ANEXO A PLANILHA DO ALMA.</p><br>"
 
         # Preenche as propriedades do e-mail
-        OutlookMail.To = "cadastro.produtos@nextimplementos.com.br"
-        OutlookMail.Subject = "Envio de Planilha - BOM ALMA"
+        OutlookMail.To = "pcp3@nextimplementos.com.br; pcp4@nextimplementos.com.br; pcp.coord@nextimplementos.com.br; pcp6@nextimplementos.com.br; pcp.cestos@nextimplementos.com.br; pcp1@nextimplementos.com.br; pcp2@nextimplementos.com.br; pcp@nextimplementos.com.br; gerencia.pcp@nextimplementos.com.br; pcp5@nextimplementos.com.br"
+        OutlookMail.CC = "processos4@nextimplementos.com.br; processos@nextimplementos.com.br; engenharia5@nextimplementos.com.br; engenharia4@nextimplementos.com.br; engenharia2@nextimplementos.com.br; engenharia1@nextimplementos.com.br; engenharia3@nextimplementos.com.br; engenharia6@nextimplementos.com.br; engenharia@nextimplementos.com.br; gerencia.engenharia@nextimplementos.com.br; projetos@nextimplementos.com.br; "
+        OutlookMail.Subject = "BOM DO ALMA DO PROJETO"
         OutlookMail.Display()  # Exibe o e-mail antes de enviar (necessário para carregar a assinatura)
 
         # Junta o corpo do e-mail com a assinatura padrão do Outlook
@@ -117,3 +118,4 @@ btn = tk.Button(janela, text="Selecionar e Processar Arquivo Excel",
 btn.pack(pady=40)
 
 janela.mainloop()
+
